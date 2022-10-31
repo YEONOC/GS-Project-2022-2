@@ -1,0 +1,808 @@
+Unity Editor version:    2021.3.9f1 (ad3870b89536)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53304
+Successfully changed project path to: /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene
+/Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 71.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56386
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000609 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.462 seconds
+Domain Reload Profiling:
+	ReloadAssembly (462ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (351ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001279 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (501ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.5 KB). Loaded Objects now: 3845.
+Memory consumption went from 239.2 MB to 239.2 MB.
+Total: 2.413583 ms (FindLiveObjects: 0.122000 ms CreateObjectMapping: 0.043125 ms MarkObjects: 2.182125 ms  DeleteObjects: 0.065833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141767.360085 seconds.
+  path: Assets/StarfieldMaterials
+  artifactKey: Guid(a6caddd5a196846e9aea288c63b1d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials using Guid(a6caddd5a196846e9aea288c63b1d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b0801cb7c0a463ca4bdd9cd557f0e8') in 0.034699 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001298 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17dfab000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (600ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (179ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (71.4 KB). Loaded Objects now: 3847.
+Memory consumption went from 239.2 MB to 239.1 MB.
+Total: 2.318416 ms (FindLiveObjects: 0.127042 ms CreateObjectMapping: 0.047791 ms MarkObjects: 2.071542 ms  DeleteObjects: 0.071333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.065060 seconds.
+  path: Assets/Materials/Mat_backgounds.mat
+  artifactKey: Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_backgounds.mat using Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05ff32376401dcd234e66a13ceebf97') in 0.264807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.026098 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds
+  artifactKey: Guid(ca19bb7b1fce94341805f6e8ff2c92c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds using Guid(ca19bb7b1fce94341805f6e8ff2c92c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed00331c0d636859c569a03308a000a') in 0.001407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.404962 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-01.png
+  artifactKey: Guid(4449ad5b30ffc8e4d8f6fb57caddc264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-01.png using Guid(4449ad5b30ffc8e4d8f6fb57caddc264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fc6b9664118642e6d15d1a2cd8d8fa') in 0.153427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-wave-01.png
+  artifactKey: Guid(d42b8e74f256a214ca3f0a45117db02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-wave-01.png using Guid(d42b8e74f256a214ca3f0a45117db02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516a5a9abec4873c3a60bde953cd4a9c') in 0.072937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-sea.png
+  artifactKey: Guid(e404f0a4c78ff58459dd3b82bb140d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-sea.png using Guid(e404f0a4c78ff58459dd3b82bb140d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685d0d98e6ab126bd49179b5acf865ea') in 0.025630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.291402 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds
+  artifactKey: Guid(ee470ba69cfab644c8dbd5054d6230bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds using Guid(ee470ba69cfab644c8dbd5054d6230bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247f54da7e4d9689691a4db299ab4d3a') in 0.001679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055479 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png
+  artifactKey: Guid(b928bb9af722d604a8c961b6e15e4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png using Guid(b928bb9af722d604a8c961b6e15e4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4c044f9269bb5934390273d9f949be') in 0.034873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/wave-01.png
+  artifactKey: Guid(5d538a12cf3065a4e95980515de57a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/wave-01.png using Guid(5d538a12cf3065a4e95980515de57a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f678497489480ba20f41c910a59fe3') in 0.067020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.220325 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/Example
+  artifactKey: Guid(54127df79e3bb5c4ab31721097fc1012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/Example using Guid(54127df79e3bb5c4ab31721097fc1012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bcb61e131722b34ebb6cd7fe66471f') in 0.001507 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001264 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16b907000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (619ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3900.
+Memory consumption went from 252.8 MB to 252.7 MB.
+Total: 2.655834 ms (FindLiveObjects: 0.135875 ms CreateObjectMapping: 0.043708 ms MarkObjects: 2.399375 ms  DeleteObjects: 0.076208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.314989 seconds.
+  path: Assets/DinV/Dynamic Space Background
+  artifactKey: Guid(cfbbfb20b2395ec48ba47f1f035266d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DinV/Dynamic Space Background using Guid(cfbbfb20b2395ec48ba47f1f035266d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e68724e7a2b28ff1c98a23b2f46d8a') in 0.029502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628665 seconds.
+  path: Assets/DinV/Dynamic Space Background/Sprites
+  artifactKey: Guid(3ec1885b01800f2418a75597e3cc12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DinV/Dynamic Space Background/Sprites using Guid(3ec1885b01800f2418a75597e3cc12b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a75828784e358d05bfdd7e0aa96140') in 0.001674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064139 seconds.
+  path: Assets/DinV/Dynamic Space Background/Sprites/Nebula Aqua-Pink.png
+  artifactKey: Guid(d9b31ebd60af68c469212c1a9f513e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DinV/Dynamic Space Background/Sprites/Nebula Aqua-Pink.png using Guid(d9b31ebd60af68c469212c1a9f513e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710d16122034097daa153bc6e57153ca') in 0.274989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png
+  artifactKey: Guid(c6944f9f15bd0ca4087bcdf033f0e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png using Guid(c6944f9f15bd0ca4087bcdf033f0e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfdc12457dfade34e6fe9e2fc2aa7a0') in 0.143380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/DinV/Dynamic Space Background/Sprites/Nebula Red.png
+  artifactKey: Guid(35313af049b4a2f42a0325330c51d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DinV/Dynamic Space Background/Sprites/Nebula Red.png using Guid(35313af049b4a2f42a0325330c51d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c422f80bda45e18a2c76ce18801d955') in 0.957629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.514124 seconds.
+  path: Assets/Materials/Mat_backgounds.mat
+  artifactKey: Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_backgounds.mat using Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31e4a23889b8e5fbf984c814b226bda') in 0.056768 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001285 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16ba1f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (654ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (505ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (73.5 KB). Loaded Objects now: 3908.
+Memory consumption went from 253.0 MB to 252.9 MB.
+Total: 2.764917 ms (FindLiveObjects: 0.186792 ms CreateObjectMapping: 0.047542 ms MarkObjects: 2.437916 ms  DeleteObjects: 0.092167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83.564473 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 01.png
+  artifactKey: Guid(e35de283f6d110b4bb164d04f6547746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 01.png using Guid(e35de283f6d110b4bb164d04f6547746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4733357ccbd870a5405e73f7859aa4c5') in 0.254871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 10.png
+  artifactKey: Guid(1f2dbfef7aaa9d94f88dfecc65df6f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 10.png using Guid(1f2dbfef7aaa9d94f88dfecc65df6f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d66fa8f4e69f9cfa5d360df7804250') in 0.137999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 05.png
+  artifactKey: Guid(a351a0b27e67d654a83bc3d461c3d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 05.png using Guid(a351a0b27e67d654a83bc3d461c3d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b2e44b76ca1a21b7b89e732c93a655') in 0.122031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 03.png
+  artifactKey: Guid(54d6307a2f2e6c04a946bd016fabc35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 03.png using Guid(54d6307a2f2e6c04a946bd016fabc35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8e27b365a40d6375f5650116216b7a') in 0.130323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 07.png
+  artifactKey: Guid(375a7d5cac1d0ca4cb9161b5a2c3d9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 07.png using Guid(375a7d5cac1d0ca4cb9161b5a2c3d9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0537e541b3daa0b754e4f962cd8c94') in 0.137644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.384991 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-01.png
+  artifactKey: Guid(8aed4928e775b05458e7c052024c5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-01.png using Guid(8aed4928e775b05458e7c052024c5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3065f78cd2babe6f0736f756424323b') in 0.081807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-wave-01.png
+  artifactKey: Guid(cef95f086fda84140b17040b5aee84c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-wave-01.png using Guid(cef95f086fda84140b17040b5aee84c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ac0de69a117bb1d6b54dbcb7474781') in 0.092956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-mountain-01.png
+  artifactKey: Guid(16d7cbbe79dd16e489cd088551c93c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-mountain-01.png using Guid(16d7cbbe79dd16e489cd088551c93c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12fe1f7471a709fe9490d8f3456116e') in 0.042312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.492046 seconds.
+  path: Assets/space_warrior_jet/jet.FBX
+  artifactKey: Guid(247766e192f437c4680b63372b7cb017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/space_warrior_jet/jet.FBX using Guid(247766e192f437c4680b63372b7cb017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a90a16867bffa70e2aac3cc924e51aa') in 0.431750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.020821 seconds.
+  path: Assets/Materials/Mat_backgounds.mat
+  artifactKey: Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_backgounds.mat using Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5689fcd18dad3a6f024e7d4c44140f2b') in 0.039447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.031618 seconds.
+  path: Assets/DinV
+  artifactKey: Guid(5f55f91d721c64addaa28e37858cc7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DinV using Guid(5f55f91d721c64addaa28e37858cc7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb8795fda45612fd4156d4002d43fd8') in 0.002846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.815210 seconds.
+  path: Assets/Free 2D Adventure Beach Pack
+  artifactKey: Guid(ef55bd429f1df4b5b8595f8ce3381beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack using Guid(ef55bd429f1df4b5b8595f8ce3381beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92113c34b95683fd4444710809e94290') in 0.001396 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003620 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16ba1f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Domain Reload Profiling:
+	ReloadAssembly (701ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3387 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (225.7 KB). Loaded Objects now: 3926.
+Memory consumption went from 258.6 MB to 258.4 MB.
+Total: 5.191417 ms (FindLiveObjects: 0.121458 ms CreateObjectMapping: 0.042833 ms MarkObjects: 4.762875 ms  DeleteObjects: 0.263500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.222935 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset
+  artifactKey: Guid(334c6238c826d4f54994bd3321639c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset using Guid(334c6238c826d4f54994bd3321639c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac160c37a86e27fc9f69cd2de98f8ac5') in 0.006084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.857138 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites
+  artifactKey: Guid(d82455517788a4d42a6e9218b112702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites using Guid(d82455517788a4d42a6e9218b112702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664cbc178fe93b4ccab02046012e6f01') in 0.001098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.303972 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/black8x8.png
+  artifactKey: Guid(431579c735167444382df85d05be78fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/black8x8.png using Guid(431579c735167444382df85d05be78fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65de2b2e5c867a28c1c5eef5a26bb60') in 0.063304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.527542 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds
+  artifactKey: Guid(952be6d943fa2e9439b0fc14601f22f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds using Guid(952be6d943fa2e9439b0fc14601f22f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb005010adb1fa64b20d728c319961f') in 0.001359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074009 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 1.png
+  artifactKey: Guid(f9b07fce74a23514a8eb55eaaa77d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 1.png using Guid(f9b07fce74a23514a8eb55eaaa77d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e31c6d04e9dea38723b87c73b4d6b25') in 0.252187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 8.psd
+  artifactKey: Guid(8781fb9953d570c4093f4e1896cc6446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 8.psd using Guid(8781fb9953d570c4093f4e1896cc6446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23d7d9c5411d31c584b996235b428ce') in 0.262827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 6.png
+  artifactKey: Guid(28edc5ab77aaf9346926f1ef2b97fb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 6.png using Guid(28edc5ab77aaf9346926f1ef2b97fb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d06462fd85ad156de61e46a17b777d1') in 0.239323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 6.psd
+  artifactKey: Guid(87302042dda5c20448c6c8db5a64a0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 6.psd using Guid(87302042dda5c20448c6c8db5a64a0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40baf2366bfc96f0ef6b6634ddfac5a2') in 0.229877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 7.png
+  artifactKey: Guid(4054d43e726579f47a011bfa3d2c0445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 7.png using Guid(4054d43e726579f47a011bfa3d2c0445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c904ec6f0c7c84a464ac9b3d869313c0') in 0.243779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 3.psd
+  artifactKey: Guid(2966def194115a047be3753f79e46a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 3.psd using Guid(2966def194115a047be3753f79e46a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d30276b6ef768b952a77a11a65fc32a') in 0.246003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 4.png
+  artifactKey: Guid(22308764d811d504d80194bea3e1a066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 4.png using Guid(22308764d811d504d80194bea3e1a066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8e934695c4e9edf1fa1cf70267506f') in 0.248915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 7.psd
+  artifactKey: Guid(e325d584f35c8154cb66713afa721682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/Space Background 7.psd using Guid(e325d584f35c8154cb66713afa721682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac156d7b65623122c96cebf6c916ae5d') in 0.240390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.250248 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS
+  artifactKey: Guid(c0323341a8eb22f42b8dbbec3d883f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS using Guid(c0323341a8eb22f42b8dbbec3d883f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83faa467bde64f56f0e6e828a1d5945f') in 0.001064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071504 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Planet Dry.png
+  artifactKey: Guid(429d3df668fe7414d97eb0da1ccb355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Planet Dry.png using Guid(429d3df668fe7414d97eb0da1ccb355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea50425e857f7e8541fd0ef8167eb4e') in 0.134379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Sun Maker.psd
+  artifactKey: Guid(3969f5fd89de55a4cb44c418ad285214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Sun Maker.psd using Guid(3969f5fd89de55a4cb44c418ad285214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0786b32b644c0b380e7e1c5448df94bb') in 0.100054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Planet Ice.png
+  artifactKey: Guid(7c16051c833047d4f89bad60a6284cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Planet Ice.png using Guid(7c16051c833047d4f89bad60a6284cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beff251f513b8d3bd743204b5e686cc4') in 0.118206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Sun Red.png
+  artifactKey: Guid(5e40f94517c356d4c9818df5d226563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Sun Red.png using Guid(5e40f94517c356d4c9818df5d226563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a16b64b7355d2059bd626c8ecdbafd5') in 0.131058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Planet Maker.psd
+  artifactKey: Guid(3ec675d224babdb4096fd22ad9e7a080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/PLANETS/Planet Maker.psd using Guid(3ec675d224babdb4096fd22ad9e7a080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49801f5173c506bd026cbc074dc9d703') in 0.082053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.557554 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/BKG LAYERS PNG
+  artifactKey: Guid(6ea596c85788a5a42b52d3a3e23fb7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Sprites/BackGrounds/BKG LAYERS PNG using Guid(6ea596c85788a5a42b52d3a3e23fb7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17802f9dfd20a1080167144d60b836b3') in 0.002065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.049576 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Scripts
+  artifactKey: Guid(b2067af5512693a43b04446272241017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Scripts using Guid(b2067af5512693a43b04446272241017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85ab9c578175c74902f3166666877ac') in 0.000915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.724922 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Scenes
+  artifactKey: Guid(6d8ddb43032d56b41a1bfdea584e1819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Scenes using Guid(6d8ddb43032d56b41a1bfdea584e1819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb624106060bd96bbcde60997f2c446') in 0.001041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.949392 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Prefabs
+  artifactKey: Guid(babb0d017a79a2c4f96a762e12c64808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Prefabs using Guid(babb0d017a79a2c4f96a762e12c64808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5810dd84dc92d0b77d26fb4fd8e1945') in 0.001738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054453 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Prefabs/TopPanel.prefab
+  artifactKey: Guid(3b06af8ada0f80447848accbf9388b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Prefabs/TopPanel.prefab using Guid(3b06af8ada0f80447848accbf9388b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0150f2e1099d8d0f9c8b2b11e610621f') in 0.043831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.699608 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Manual
+  artifactKey: Guid(8eec90ab119f809448ecf9529eeb6ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Manual using Guid(8eec90ab119f809448ecf9529eeb6ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cd0a3a0339bb2c076f3373074aece8') in 0.001599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.880107 seconds.
+  path: Assets/Space Backgroung Parallax Maker Asset/Shaders
+  artifactKey: Guid(8729fe84dae60dd468bc6519f40b9817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space Backgroung Parallax Maker Asset/Shaders using Guid(8729fe84dae60dd468bc6519f40b9817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5045895ed29c10b38a670d4dc19802') in 0.008054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.003284 seconds.
+  path: Assets/Materials/Mat_backgounds.mat
+  artifactKey: Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_backgounds.mat using Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939f8aa55da40810f2ce608bebfe6a5e') in 0.064496 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001154 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16b38f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/BackgroundScene/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.704 seconds
+Domain Reload Profiling:
+	ReloadAssembly (705ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3387 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (235.7 KB). Loaded Objects now: 3935.
+Memory consumption went from 267.7 MB to 267.5 MB.
+Total: 2.729459 ms (FindLiveObjects: 0.141875 ms CreateObjectMapping: 0.041417 ms MarkObjects: 2.340375 ms  DeleteObjects: 0.204959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 180.415168 seconds.
+  path: Assets/Materials/Mat_backgounds.mat
+  artifactKey: Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_backgounds.mat using Guid(781675284e6644fee88c947a6340ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a130c048d7f63375f2af9975445f02') in 0.058387 seconds 

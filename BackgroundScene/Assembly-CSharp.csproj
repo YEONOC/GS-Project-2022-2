@@ -37,8 +37,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/Background.cs" />
-     <Compile Include="Assets/StarfieldMaterials/Scripts/Move.cs" />
-     <None Include="Assets/StarfieldMaterials/README/Readme.txt" />
+     <Compile Include="Assets/Space Backgroung Parallax Maker Asset/Scripts/ParallaxPlane.cs" />
+     <Compile Include="Assets/Space Backgroung Parallax Maker Asset/Scripts/TouchPad/TouchPad.cs" />
+     <Compile Include="Assets/Space Backgroung Parallax Maker Asset/Scripts/SpriteParallax.cs" />
+     <Compile Include="Assets/Space Backgroung Parallax Maker Asset/Scripts/TopMenuController.cs" />
+     <Compile Include="Assets/Space Backgroung Parallax Maker Asset/Scripts/CameraFollow.cs" />
+     <None Include="Assets/Space Backgroung Parallax Maker Asset/Shaders/SpriteBlending/Sprites-Glow.shader" />
+     <None Include="Assets/Space Backgroung Parallax Maker Asset/Shaders/SpriteBlending/Sprites-Normal.shader" />
+     <None Include="Assets/Space Backgroung Parallax Maker Asset/Shaders/SpriteBlending/Sprites-Overlay.shader" />
+     <None Include="Assets/Space Backgroung Parallax Maker Asset/Shaders/SpriteBlending/Sprites-Screen.shader" />
+     <None Include="Assets/Space Backgroung Parallax Maker Asset/Shaders/SpriteBlending/Sprites-Darken.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

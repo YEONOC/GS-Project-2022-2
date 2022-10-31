@@ -356,7 +356,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Background.cs"
-"Assets/StarfieldMaterials/Scripts/Move.cs"
+"Assets/Space Backgroung Parallax Maker Asset/Scripts/CameraFollow.cs"
+"Assets/Space Backgroung Parallax Maker Asset/Scripts/ParallaxPlane.cs"
+"Assets/Space Backgroung Parallax Maker Asset/Scripts/SpriteParallax.cs"
+"Assets/Space Backgroung Parallax Maker Asset/Scripts/TopMenuController.cs"
+"Assets/Space Backgroung Parallax Maker Asset/Scripts/TouchPad/TouchPad.cs"
 -langversion:9.0
 
 /deterministic
