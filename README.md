@@ -36,7 +36,7 @@
 1. Particle System을 추가하고 속성값 5개 이상 변경하여 반영
     - ### 사용한 Asset
         - War FX v1.8.04
-    - ### FX_Fire
+    - ### FX_Fire (Mat_FireFX 적용)
         - Shape
 
 
@@ -56,7 +56,7 @@
         - Noise
 
             <img src="https://user-images.githubusercontent.com/39399715/198927143-c8e0b4c9-454a-49c2-b85e-9d0241170e9f.png" width="40%" height="30%">
-    - ### FX_Smoke   
+    - ### FX_Smoke (Mat_SmokeFX 적용)
         - Shape
 
             <img src="https://user-images.githubusercontent.com/39399715/198928075-8c54156e-573b-4961-8cfd-c0fd1a97c081.png" width="40%" height="30%">
