@@ -1,5 +1,7 @@
 # GS-Project-2022-2
 
+## 유니티 버전 : 2021.3.9f1
+### GameSoftwareProject만 다운받으시면 됩니다!
 ## [SampleScene]
 - 구성 
     - MainCamera
@@ -8,26 +10,22 @@
     - Plane(1)
     - Cube
     - car 1203 yellow
-1. 3D Object Shpere 추가하고 해당 Shpere에 Prefab 활용하여 다양한 모습(차, 비행기 등)으로 변경
-    Asset Store에서 Shpere에 반영할 Asset을 import 하고 import한 prefab을 Shpere에 적용 (2점) 
+1. 3D Object Shpere 추가하고 해당 Shpere에 Prefab 활용하여 다양한 모습(차, 비행기 등)으로 변경. Asset Store에서 Shpere에 반영할 Asset을 import 하고 import한 prefab을 Shpere에 적용. 
     - ### 사용한 Asset
         - HQ Racing Car Model No.1203 v1.0
             - car 1203 yellow (New Material 1 적용)
 
-2. 변수로 Cube 오브젝트를 제어하는 것으로 Cube와 Plane(바닥)을 생성하고 Cube에 Rigidbody 컴포넌트를 추가
-    속성창에서 Rigidbody 컴포넌트의 Use Gravity는 체크하지 않고 Gravity는 false 로 설정
-    Cube 스크립트에서 Rigidbody 컴포넌트 선언하고 
-    Rigidbody의 method를 활용하여 false로 초기화된 Gravity를 true로 변경
-    Cube는 Plane(바닥) 보다는 위쪽에 위치하도록 Y축 값으로 설정
-    실행 버튼을 클릭하여 게임창에서 Cube가 중력을 받고 내려가서 Plane(바닥)에 떨어지는지 확인 (3점)
+2. 변수로 Cube 오브젝트를 제어하는 것으로 Cube와 Plane(바닥)을 생성하고 Cube에 Rigidbody 컴포넌트를 추가 속성창에서 Rigidbody 컴포넌트의 Use Gravity는 체크하지 않고 Gravity는 false 로 설정. Cube 스크립트에서 Rigidbody 컴포넌트 선언하고 Rigidbody의 method를 활용하여 false로 초기화된 Gravity를 true로 변경. Cube는 Plane(바닥) 보다는 위쪽에 위치하도록 Y축 값으로 설정. 실행 버튼을 클릭하여 게임창에서 Cube가 중력을 받고 내려가서 Plane(바닥)에 떨어지는지 확인.
     - ### GameObject
         - Cube
             - Rigidbody
                 - Mass : 2
                 - Drag : 0
                 - Angular drag : 0.05
-                - Use Gravity : check
-                - Is Kinematic : not check
+                - Use Gravity : false
+                - Is Kinematic : false
+    - ### C# Scripts
+        - CubeRigid.cs
 
 ## [ParticleScene]
 - 구성 
@@ -35,10 +33,14 @@
     - Directional Light
     - FX_Fire
         - FX_Smoke
-1. Particle System을 추가하고 속성값 5개 이상 변경하여 반영 (5점)
+1. Particle System을 추가하고 속성값 5개 이상 변경하여 반영
     - ### 사용한 Asset
         - War FX v1.8.04
     - ### FX_Fire
+        - Shape
+
+
+            <img src="https://user-images.githubusercontent.com/39399715/198955975-5ae81e1a-f5e4-4869-9eb0-4ce537da54f5.png" width="40%" height="30%">
         - Color over Lifetime
 
             <img src="https://user-images.githubusercontent.com/39399715/198926535-9c3d3e5c-d01f-43fa-9ece-87e0bd09f3ec.png" width="20%" height="30%">
@@ -82,9 +84,7 @@
     - Directional Light
     - Terrian
     - WindZone
-1. 3D Object로 Terrain을 추가하고 표면(Layer) Texture 변경, Brush로 산, 언덕 만들고
-    나무, 잔디, Wind zone 추가 (5점)
-
+1. 3D Object로 Terrain을 추가하고 표면(Layer) Texture 변경, Brush로 산, 언덕 만들고 나무, 잔디, Wind zone 추가
     - ### 사용한 Asset
         - Standard Assets (for Unity 2018.4) v1.1.6 Environments
             - 표면 Texture 
@@ -123,10 +123,6 @@
         - jet
     - Background
 1. 스크롤되는 배경화면 만들기 (5점)
-    * 배경화면(Space Star Field Backgrounds)과 오브젝트(Awesome Cartoon Airplanes)는 
-       수업시간에 하지 않은 Asset으로 반영
-    * Asset으로 Space Star Field Backgrounds, Awesome Cartoon Airplanes을 사용하는 경우와
-       다른 학생과 동일한 Asset에 동일한 속성값 사용시 감점
     - ### 사용한 Asset
         - Space Warrior Jet v1
             - jet
