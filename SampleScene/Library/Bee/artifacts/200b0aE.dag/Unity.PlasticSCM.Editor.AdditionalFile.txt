@@ -1,1 +1,1 @@
-/Users/choeboseog/src/unity_work/SampleScene
+/Users/choeboseog/src/unity_work/PersonalProject(GameSoftware)/SampleScene
