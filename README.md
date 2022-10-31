@@ -9,11 +9,12 @@
     - Plane
     - Plane(1)
     - Cube
-    - car 1203 yellow
+    - Sphere
+        - car 1203 black
 1. 3D Object Shpere 추가하고 해당 Shpere에 Prefab 활용하여 다양한 모습(차, 비행기 등)으로 변경. Asset Store에서 Shpere에 반영할 Asset을 import 하고 import한 prefab을 Shpere에 적용. 
     - ### 사용한 Asset
         - HQ Racing Car Model No.1203 v1.0
-            - car 1203 yellow (New Material 1 적용)
+            - car 1203 black
 
 2. 변수로 Cube 오브젝트를 제어하는 것으로 Cube와 Plane(바닥)을 생성하고 Cube에 Rigidbody 컴포넌트를 추가 속성창에서 Rigidbody 컴포넌트의 Use Gravity는 체크하지 않고 Gravity는 false 로 설정. Cube 스크립트에서 Rigidbody 컴포넌트 선언하고 Rigidbody의 method를 활용하여 false로 초기화된 Gravity를 true로 변경. Cube는 Plane(바닥) 보다는 위쪽에 위치하도록 Y축 값으로 설정. 실행 버튼을 클릭하여 게임창에서 Cube가 중력을 받고 내려가서 Plane(바닥)에 떨어지는지 확인.
     - ### GameObject
